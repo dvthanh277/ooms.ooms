@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Luxury Car Music</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="user-info">
+        <img class="avatar" src="/images/ava.jpeg" alt="user" />
+        <div>
+          <p class="location-label">ooms.ooms</p>
+          <p class="location">Thành.Ốm</p>
+        </div>
+      </div>
+      <button class="icon-btn" title="Notifications">
+        <a href="https://www.tiktok.com/@ooms.ooms">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </button>
+    </header>
+
+    <!-- Search -->
+    <div class="search-section">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" placeholder="Tìm kiếm" id="searchInput" />
+      </div>
+    </div>
+
+    <!-- Explore header -->
+    <section class="explore-section">
+      <div class="explore-header">
+        <h2>Nhạc chào mừng <span>Carplay</span></h2>
+      </div>
+
+      <!-- Car list -->
+      <div class="car-list" id="carList"></div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

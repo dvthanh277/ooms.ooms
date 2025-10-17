@@ -1,0 +1,296 @@
+/* ----- Global ----- */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: white;
+}
+a:hover {
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom, #0d0d0d, #000);
+  color: #fff;
+}
+
+/* ----- Header ----- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.user-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.location-label {
+  font-size: 13px;
+  color: #aaa;
+  margin: 0;
+}
+
+.location {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ----- Search ----- */
+.search-section {
+  margin: 18px 0;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #121212;
+  border-radius: 28px;
+  padding: 10px 14px;
+  gap: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.search-box .search-icon {
+  color: #777;
+  font-size: 15px;
+}
+
+.search-box input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.filter-btn {
+  background: #c8a24b;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #000;
+}
+
+/* ----- Explore header ----- */
+.explore-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.explore-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.explore-header h2 span {
+  color: #d8b64b;
+}
+
+.explore-header a {
+  color: #aaa;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* ----- Car list ----- */
+.car-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.car-card {
+  background: linear-gradient(180deg, #151515 50%, #ffdd725c 140%);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 14px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.car-card:hover {
+  transform: translateY(-3px);
+}
+.car-card:hover .car-img {
+  display: none;
+}
+.car-card:hover .car-img-hover {
+  display: block;
+}
+
+.car-card.playing {
+  box-shadow: 0 10px 30px rgba(216, 182, 75, 0.14),
+    0 0 18px rgba(216, 182, 75, 0.12) inset;
+  border: 1px solid rgba(216, 182, 75, 0.15);
+}
+
+.car-img {
+  width: 142px;
+  height: 67px;
+  border-radius: 10px;
+  object-fit: contain;
+  transition: all 0.5s;
+}
+.car-img-hover {
+  width: 142px;
+  height: 67px;
+  border-radius: 10px;
+  object-fit: contain;
+  display: none;
+  transition: all 0.5s;
+}
+
+.car-info {
+  flex: 1;
+}
+
+.car-info h3 {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.car-meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: #bbb;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.meta-item i {
+  color: #d8b64b;
+  margin-right: 6px;
+}
+
+.price {
+  color: #d8b64b;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* ----- Controls ----- */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.btn-circle {
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+
+.btn-circle:hover {
+  transform: scale(1.05);
+  background: #d8b64b;
+  color: #000;
+}
+
+.download-link {
+  text-decoration: none;
+  display: block;
+}
+
+/* EQ animation */
+.eq {
+  display: flex;
+  gap: 3px;
+  align-items: end;
+  height: 20px;
+  width: 40px;
+}
+
+.eq .bar {
+  width: 6px;
+  background: #d8b64b;
+  border-radius: 3px;
+  opacity: 0;
+  transform-origin: bottom;
+  animation: eqAnim 900ms infinite ease-in-out;
+}
+
+.eq .bar:nth-child(1) {
+  animation-delay: 0ms;
+}
+.eq .bar:nth-child(2) {
+  animation-delay: 150ms;
+}
+.eq .bar:nth-child(3) {
+  animation-delay: 300ms;
+}
+
+@keyframes eqAnim {
+  0% {
+    transform: scaleY(0.2);
+    opacity: 0.2;
+  }
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(0.3);
+    opacity: 0.25;
+  }
+}
+
+.car-card:not(.playing) .eq .bar {
+  opacity: 0;
+  animation-play-state: paused;
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 420px;
+    margin: 0 auto;
+    padding-top: 28px;
+  }
+}
