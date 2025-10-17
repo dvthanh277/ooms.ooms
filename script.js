@@ -6,7 +6,7 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwaa27a00c/images/mega-menu/car/VF3_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwd0b654ea/images/mega-menu/car/VF3.png",
-      musicUrl: "/sounds/welcome_vf3.mp3",
+      musicUrl: "./sounds/welcome_vf3.mp3",
     },
     {
       carName: "VF5",
@@ -78,13 +78,11 @@ $(function () {
             <button class="btn-circle play-btn" data-index="${i}" title="Play / Pause">
               <i class="fa-solid fa-play"></i>
             </button>
+            <button class="btn-circle download-btn" data-music="${car.musicUrl}">
+              <i class="fa-solid fa-download"></i> 
+            </button>
 
-            <a class="download-link" href="${car.musicUrl}" download>
-              <button class="btn-circle" title="Download">
-                <i class="fa-solid fa-download"></i>
-              </button>
-            </a>
-
+         
            
           </div>
 
@@ -155,4 +153,31 @@ $(function () {
       renderCars(filtered);
     }
   });
+
+  // Download button
+  $(document).on("click", ".download-btn", function () {
+    const url = $(this).data("music");
+    showPopup(url);
+  });
+  function renderLink(url) {
+    $("#link_download").html(`<a href="${url}" download>Tải xuống</a>`);
+  }
+
+  function showPopup(url) {
+    const $popup = $("#downloadPopup");
+    let timeLeft = 5;
+    $("#countdown").text(timeLeft);
+    $popup.fadeIn(200);
+    $popup.css("display", "flex");
+
+    const timer = setInterval(() => {
+      timeLeft--;
+      $("#countdown").text(timeLeft);
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        // window.location.href = url;
+        renderLink(url);
+      }
+    }, 1000);
+  }
 });

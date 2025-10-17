@@ -19,7 +19,7 @@
     <!-- Header -->
     <header class="header">
       <div class="user-info">
-        <img class="avatar" src="/images/ava.jpeg" alt="user" />
+        <img class="avatar" src="./images/ava.jpeg" alt="user" />
         <div>
           <p class="location-label">ooms.ooms</p>
           <p class="location">Thành.Ốm</p>
@@ -49,6 +49,22 @@
       <!-- Car list -->
       <div class="car-list" id="carList"></div>
     </section>
+
+    <!-- Popup -->
+    <div id="downloadPopup" class="popup-overlay">
+      <div class="popup">
+        <h3 id="link_download">
+          Please wait <span id="countdown">5</span> seconds.
+        </h3>
+        <div class="qr-section">
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://donate.vinfast.vn"
+            alt="Donate QR"
+          />
+          <p>Scan QR to support our project ❤️</p>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
