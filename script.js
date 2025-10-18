@@ -6,7 +6,7 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwaa27a00c/images/mega-menu/car/VF3_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwd0b654ea/images/mega-menu/car/VF3.png",
-      musicUrl: "./sounds/welcome_vf3.mp3",
+      musicUrl: "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vf3.mp3",
     },
     {
       carName: "VF5",
@@ -14,7 +14,7 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw89e7b6ae/images/mega-menu/car/VF5_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw7d9d746e/images/mega-menu/car/VF5.png",
-      musicUrl: "./sounds/welcome_vf5.mp3",
+      musicUrl: "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vf5.mp3",
     },
     {
       carName: "VF6",
@@ -22,7 +22,7 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw97863970/images/mega-menu/car/VF6_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw8a95b6e7/images/mega-menu/car/VF6.png",
-      musicUrl: "./sounds/welcome_vf6.mp3",
+      musicUrl: "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vf6.mp3",
     },
     {
       carName: "VF7",
@@ -30,7 +30,7 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw1192a5fc/images/mega-menu/car/VF7_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw44ef384f/images/mega-menu/car/VF7.png",
-      musicUrl: "./sounds/welcome_vf7.mp3",
+      musicUrl: "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vf7.mp3",
     },
     {
       carName: "VF8",
@@ -38,7 +38,7 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw56a40f9e/images/mega-menu/car/VF8_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwfedf86ff/images/mega-menu/car/VF8.png",
-      musicUrl: "./sounds/welcome_vf8.mp3",
+      musicUrl: "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vf8.mp3",
     },
     {
       carName: "VF9",
@@ -46,7 +46,7 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw42729c23/images/mega-menu/car/VF9_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw9a247c2c/images/mega-menu/car/VF9.png",
-      musicUrl: "./sounds/welcome_vf9.mp3",
+      musicUrl: "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vf9.mp3",
     },
     {
       carName: "VF Fadil",
@@ -54,7 +54,8 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw9ad4801e/images/mega-menu/car/Fadil_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwf28b901a/images/mega-menu/car/Fadil.png",
-      musicUrl: "./sounds/welcome_vffadil.mp3",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vffadil.mp3",
     },
     {
       carName: "VF LUX A",
@@ -62,7 +63,8 @@ $(function () {
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwa53eb41c/images/mega-menu/car/Lux-A2.0_hover.png",
       imageUrl:
         "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwb0f5a2a7/images/mega-menu/car/Lux-A2.0.png",
-      musicUrl: "./sounds/welcome_vfluxa.mp3",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_vfluxa.mp3",
     },
     {
       carName: "Toyota Innova",
@@ -70,7 +72,8 @@ $(function () {
         "https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_744,h_294/https://toyotabacninh.org/wp-content/uploads/2019/03/Bac-1D6-min.png",
       imageUrl:
         "https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_744,h_294/https://toyotabacninh.org/wp-content/uploads/2019/03/Bac-1D6-min.png",
-      musicUrl: "./sounds/welcome_innova.mp3",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_innova.mp3",
     },
     {
       carName: "Hyundai Tucson",
@@ -78,7 +81,8 @@ $(function () {
         "https://hyundaidongsaigon.vn/thumbs/600x400x2/upload/product/hyundai-tucson-trang-6452.png",
       imageUrl:
         "https://hyundaidongsaigon.vn/thumbs/600x400x2/upload/product/hyundai-tucson-trang-6452.png",
-      musicUrl: "./sounds/welcome_tucson.mp3",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_tucson.mp3",
     },
     {
       carName: "Mazda CX30",
@@ -86,7 +90,8 @@ $(function () {
         "https://mazdamotors.vn/media/el0dnn52/cx-30_dmlm_dgdblac_46v_d2b_ext_360_24_transparentpng_0024.png?width=248",
       imageUrl:
         "https://mazdamotors.vn/media/el0dnn52/cx-30_dmlm_dgdblac_46v_d2b_ext_360_24_transparentpng_0024.png?width=248",
-      musicUrl: "./sounds/welcome_mazdacx30.mp3",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_mazdacx30.mp3",
     },
     {
       carName: "MG5",
@@ -94,7 +99,7 @@ $(function () {
         "https://mgmotor.vn/wp-content/uploads/2023/08/MG5_White.2-min5.png",
       imageUrl:
         "https://mgmotor.vn/wp-content/uploads/2023/08/MG5_White.2-min5.png",
-      musicUrl: "./sounds/welcome_mg5.mp3",
+      musicUrl: "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_mg5.mp3",
     },
   ];
 
@@ -213,6 +218,9 @@ $(function () {
     );
   }
 
+  // Variable to store the active timer
+  let activeTimer = null;
+
   function showPopup(url) {
     const $popup = $("#downloadPopup");
     let timeLeft = 5;
@@ -220,21 +228,32 @@ $(function () {
     $popup.fadeIn(200);
     $popup.css("display", "flex");
 
-    const timer = setInterval(() => {
+    // Clear any existing timer to prevent multiple timers running
+    if (activeTimer) {
+      clearInterval(activeTimer);
+    }
+
+    activeTimer = setInterval(() => {
       timeLeft--;
       $("#countdown").text(timeLeft);
       if (timeLeft <= 0) {
-        clearInterval(timer);
+        clearInterval(activeTimer);
+        activeTimer = null;
         // window.location.href = url;
         renderLink(url);
       }
     }, 1000);
-    
+
     // Close popup when clicking outside
-    $(document).on('click.popupOutside', function(e) {
-      if ($(e.target).closest('.popup').length === 0) {
+    $(document).on("click.popupOutside", function (e) {
+      if ($(e.target).closest(".popup").length === 0) {
         $popup.fadeOut(200);
-        $(document).off('click.popupOutside');
+        $(document).off("click.popupOutside");
+        // Clear the timer when closing the popup
+        if (activeTimer) {
+          clearInterval(activeTimer);
+          activeTimer = null;
+        }
       }
     });
   }
