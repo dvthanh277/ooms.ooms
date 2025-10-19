@@ -265,6 +265,116 @@ $(function () {
       category: "Tiếng Việt Trước",
       brand: "Mazda",
     },
+    {
+      carName: "Ford Everest",
+      imageUrlHover:
+        "https://fordhaiphong.vn/image/cache/catalog/san-pham/ford-everest-titanium-2023-900x600.png",
+      imageUrl:
+        "https://fordhaiphong.vn/image/cache/catalog/san-pham/ford-everest-titanium-2023-900x600.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_fordeverest.mp3",
+      category: "Tiếng Anh Trước",
+      brand: "Ford",
+    },
+    {
+      carName: "Ford Everest (Tiếng Việt Trước)",
+      imageUrlHover:
+        "https://fordhaiphong.vn/image/cache/catalog/san-pham/ford-everest-titanium-2023-900x600.png",
+      imageUrl:
+        "https://fordhaiphong.vn/image/cache/catalog/san-pham/ford-everest-titanium-2023-900x600.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_fordeverest_vi.mp3",
+      category: "Tiếng Việt Trước",
+      brand: "Ford",
+    },
+    {
+      carName: "Mitsubishi Xpander",
+      imageUrlHover:
+        "https://mitsubishihatinh5s.com/wp-content/uploads/2019/06/1642135848-ultimate-white-at-2x-minpng-e1666582824202.png",
+      imageUrl:
+        "https://mitsubishihatinh5s.com/wp-content/uploads/2019/06/1642135848-ultimate-white-at-2x-minpng-e1666582824202.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_xpander.mp3",
+      category: "Tiếng Anh Trước",
+      brand: "Mitsubishi",
+    },
+    {
+      carName: "Mitsubishi Xpander (Tiếng Việt Trước)",
+      imageUrlHover:
+        "https://mitsubishihatinh5s.com/wp-content/uploads/2019/06/1642135848-ultimate-white-at-2x-minpng-e1666582824202.png",
+      imageUrl:
+        "https://mitsubishihatinh5s.com/wp-content/uploads/2019/06/1642135848-ultimate-white-at-2x-minpng-e1666582824202.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_xpander_vi.mp3",
+      category: "Tiếng Việt Trước",
+      brand: "Mitsubishi",
+    },
+    {
+      carName: "Honda City",
+      imageUrlHover:
+        "https://hondamydinh.com.vn/wp-content/uploads/2023/08/City-Trang-787x400.png",
+      imageUrl:
+        "https://hondamydinh.com.vn/wp-content/uploads/2023/08/City-Trang-787x400.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_hondacity.mp3",
+      category: "Tiếng Anh Trước",
+      brand: "Honda",
+    },
+    {
+      carName: "Honda City (Tiếng Việt Trước)",
+      imageUrlHover:
+        "https://hondamydinh.com.vn/wp-content/uploads/2023/08/City-Trang-787x400.png",
+      imageUrl:
+        "https://hondamydinh.com.vn/wp-content/uploads/2023/08/City-Trang-787x400.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_hondacity_vi.mp3",
+      category: "Tiếng Việt Trước",
+      brand: "Honda",
+    },
+    {
+      carName: "Mazda CX-3",
+      imageUrlHover:
+        "https://mazdamotors.vn/media/el0dnn52/cx-30_dmlm_dgdblac_46v_d2b_ext_360_24_transparentpng_0024.png?width=248",
+      imageUrl:
+        "https://mazdamotors.vn/media/el0dnn52/cx-30_dmlm_dgdblac_46v_d2b_ext_360_24_transparentpng_0024.png?width=248",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_mazdacx3.mp3",
+      category: "Tiếng Anh Trước",
+      brand: "Mazda",
+    },
+    {
+      carName: "Mazda CX-3 (Tiếng Việt Trước)",
+      imageUrlHover:
+        "https://mazdamotors.vn/media/el0dnn52/cx-30_dmlm_dgdblac_46v_d2b_ext_360_24_transparentpng_0024.png?width=248",
+      imageUrl:
+        "https://mazdamotors.vn/media/el0dnn52/cx-30_dmlm_dgdblac_46v_d2b_ext_360_24_transparentpng_0024.png?width=248",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_mazdacx3_vi.mp3",
+      category: "Tiếng Việt Trước",
+      brand: "Mazda",
+    },
+    {
+      carName: "Škoda Slavia",
+      imageUrlHover:
+        "https://skoda-danang.vn/wp-content/uploads/2023/10/Ambition-1-1024x560.png",
+      imageUrl:
+        "https://skoda-danang.vn/wp-content/uploads/2023/10/Ambition-1-1024x560.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_slavia.mp3",
+      category: "Tiếng Anh Trước",
+      brand: "Škoda",
+    },
+    {
+      carName: "Škoda Slavia (Tiếng Việt Trước)",
+      imageUrlHover:
+        "https://skoda-danang.vn/wp-content/uploads/2023/10/Ambition-1-1024x560.png",
+      imageUrl:
+        "https://skoda-danang.vn/wp-content/uploads/2023/10/Ambition-1-1024x560.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_slavia_vi.mp3",
+      category: "Tiếng Việt Trước",
+      brand: "Škoda",
+    },
   ];
 
   // Function to render cars based on data
