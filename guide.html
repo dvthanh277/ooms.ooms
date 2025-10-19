@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ooms.Ooms Tiktok</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="user-info">
+        <img class="avatar" src="./images/ava.jpeg" alt="user" />
+        <div>
+          <p class="location-label">ooms.ooms</p>
+          <p class="location">Thành.Ốm</p>
+        </div>
+      </div>
+      <button class="icon-btn" title="Notifications">
+        <a href="https://www.tiktok.com/@ooms.ooms">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </button>
+    </header>
+
+    <!-- Search -->
+    <div class="search-section"></div>
+
+    <!-- Explore header -->
+    <section class="explore-section">
+      <div
+        class="explore-header"
+        style="
+          flex-direction: row;
+          justify-content: unset;
+          align-items: center;
+          gap: 10px;
+        "
+      >
+        <i class="fa-solid fa-chevron-left" onclick="window.history.back()"></i>
+        <h2 style="font-size: 14px">
+          Hướng dẫn cài âm thanh chào mừng <span>Carplay</span>
+        </h2>
+      </div>
+      <div style="margin-top: 24px">
+        <blockquote
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@vinmazda/video/7559907895119187217"
+          data-video-id="7559907895119187217"
+          style="max-width: 605px; min-width: 325px"
+        >
+          <section>
+            <a
+              target="_blank"
+              title="@vinmazda"
+              href="https://www.tiktok.com/@vinmazda?refer=embed"
+              >@vinmazda</a
+            >
+            Chia sẻ cách tạo âm thanh khi khởi động Carplay trên xe ô tô, các
+            bạn có thể tuỳ chọn âm thanh tuỳ thích nhé 😃
+          </section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+      </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
