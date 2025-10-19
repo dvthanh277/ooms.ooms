@@ -118,7 +118,7 @@ $(function () {
         "https://hyundaidongsaigon.vn/thumbs/600x400x2/upload/product/hyundai-tucson-trang-6452.png",
       musicUrl:
         "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_tucson.mp3",
-      category: "Hyundai",
+      category: "Tiếng Anh Trước",
       brand: "Hyundai",
     },
     {
