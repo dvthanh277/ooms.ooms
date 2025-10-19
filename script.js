@@ -299,6 +299,17 @@ $(function () {
       brand: "Mitsubishi",
     },
     {
+      carName: "Mitsubishi Xpander (Tiếng Nhật)",
+      imageUrlHover:
+        "https://mitsubishihatinh5s.com/wp-content/uploads/2019/06/1642135848-ultimate-white-at-2x-minpng-e1666582824202.png",
+      imageUrl:
+        "https://mitsubishihatinh5s.com/wp-content/uploads/2019/06/1642135848-ultimate-white-at-2x-minpng-e1666582824202.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_xpander_jp.mp3",
+      category: "Tiếng Anh Trước",
+      brand: "Mitsubishi",
+    },
+    {
       carName: "Mitsubishi Xpander (Tiếng Việt Trước)",
       imageUrlHover:
         "https://mitsubishihatinh5s.com/wp-content/uploads/2019/06/1642135848-ultimate-white-at-2x-minpng-e1666582824202.png",
