@@ -166,7 +166,9 @@ $(function () {
         // pause others
         $("audio").each((_, a) => {
           if (a.id !== `audio-${idx}`) {
+            a.currentTime = 0;
             a.pause();
+
             const otherIdx = a.id.split("-")[1];
             const $otherCard = $(`.car-card[data-index="${otherIdx}"]`);
             $otherCard.removeClass("playing");
@@ -178,6 +180,10 @@ $(function () {
         });
 
         if (audio.paused) {
+          // If audio has ended, restart it from the beginning
+          if (audio.currentTime === audio.duration) {
+            audio.currentTime = 0;
+          }
           audio.play();
           $card.addClass("playing");
           $icon.removeClass("fa-play").addClass("fa-pause");
@@ -212,6 +218,7 @@ $(function () {
     const url = $(this).data("music");
     showPopup(url);
   });
+
   function renderLink(url) {
     $("#link_download").html(
       `<a href="${url}" class="download-link" target="_blank" download>Tải xuống</a>`
@@ -224,14 +231,19 @@ $(function () {
   function showPopup(url) {
     const $popup = $("#downloadPopup");
     let timeLeft = 5;
-    $("#countdown").text(timeLeft);
-    $popup.fadeIn(200);
-    $popup.css("display", "flex");
 
     // Clear any existing timer to prevent multiple timers running
     if (activeTimer) {
       clearInterval(activeTimer);
+      activeTimer = null;
     }
+
+    $("#countdown").text(timeLeft);
+    $("#link_download").html(
+      `Chờ một chút <span id="countdown">5</span> giây.`
+    );
+    $popup.fadeIn(200);
+    $popup.css("display", "flex");
 
     activeTimer = setInterval(() => {
       timeLeft--;
@@ -245,16 +257,18 @@ $(function () {
     }, 1000);
 
     // Close popup when clicking outside
-    $(document).on("click.popupOutside", function (e) {
-      if ($(e.target).closest(".popup").length === 0) {
-        $popup.fadeOut(200);
-        $(document).off("click.popupOutside");
-        // Clear the timer when closing the popup
-        if (activeTimer) {
-          clearInterval(activeTimer);
-          activeTimer = null;
+    $(document)
+      .off("click.popupOutside")
+      .on("click.popupOutside", function (e) {
+        if ($(e.target).closest(".popup").length === 0) {
+          $popup.fadeOut(200);
+          $(document).off("click.popupOutside");
+          // Clear the timer when closing the popup
+          if (activeTimer) {
+            clearInterval(activeTimer);
+            activeTimer = null;
+          }
         }
-      }
-    });
+      });
   }
 });
