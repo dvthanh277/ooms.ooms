@@ -386,6 +386,17 @@ $(function () {
       category: "Tiếng Việt Trước",
       brand: "Škoda",
     },
+    {
+      carName: "Lexus LX350",
+      imageUrlHover:
+        "https://www.lexus.com.vn/content/dam/lexus-v3-vietnam/2023/model/rx/premium/Overview-final.png",
+      imageUrl:
+        "https://www.lexus.com.vn/content/dam/lexus-v3-vietnam/2023/model/rx/premium/Overview-final.png",
+      musicUrl:
+        "https://dvthanh277.github.io/ooms.ooms/sounds/welcome_lx350.mp3",
+      category: "Tiếng Anh Trước",
+      brand: "Lexus",
+    },
   ];
 
   // Function to render cars based on data
